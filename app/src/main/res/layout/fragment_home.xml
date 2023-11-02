@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="85dp">
+
+                        <ImageView
+                            android:id="@+id/category1"
+                            android:src="@drawable/main_icon_all"
+                            android:layout_weight="1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"/>
+
+                        <LinearLayout
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="#999999"/>
+
+                        <ImageView
+                            android:id="@+id/category2"
+                            android:src="@drawable/main_korea"
+                            android:layout_weight="1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"/>
+
+                        <LinearLayout
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="#999999"/>
+
+                        <ImageView
+                            android:id="@+id/category3"
+                            android:src="@drawable/main_japan"
+                            android:layout_weight="1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"/>
+
+                        <LinearLayout
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="#999999"/>
+
+                        <ImageView
+                            android:id="@+id/category4"
+                            android:src="@drawable/main_china"
+                            android:layout_weight="1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#999999"/>
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="전체"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <LinearLayout
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="#999999"/>
+                        <TextView
+                            android:text="국내"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <LinearLayout
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="#999999"/>
+                        <TextView
+                            android:text="일본"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <LinearLayout
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="#999999"/>
+
+                        <TextView
+                            android:text="중국"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#999999"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="85dp">
+
+
+                        <ImageView
+                            android:id="@+id/category5"
+                            android:src="@drawable/main_thai"
+                            android:layout_weight="1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"/>
+
+                        <LinearLayout
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="#999999"/>
+
+                        <ImageView
+                            android:id="@+id/category6"
+                            android:src="@drawable/main_euroup"
+                            android:layout_weight="1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"/>
+
+                        <LinearLayout
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="#999999"/>
+
+                        <ImageView
+                            android:id="@+id/category7"
+                            android:src="@drawable/main_australia"
+                            android:layout_weight="1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"/>
+
+                        <LinearLayout
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="#999999"/>
+
+                        <ImageView
+                            android:id="@+id/category8"
+                            android:src="@drawable/main_america"
+                            android:layout_weight="1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#999999"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="동남아"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <LinearLayout
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="#999999"
+                            />
+                        <TextView
+                            android:text="유럽"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+                        <LinearLayout
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="#999999"/>
+                        <TextView
+                            android:text="호주"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+                        <LinearLayout
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="#999999"/>
+
+                        <TextView
+                            android:text="미국"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1"/>
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#999999"/>
+
+                    <ImageView
+                        android:src="@drawable/banner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="90dp"/>
+
+
+                    <TextView
+                        android:layout_margin="10dp"
+                        android:text="추천 여행지❤"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"/>
+
+
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/mainRV"
+                        android:layout_width="match_parent"
+                        android:layout_height="600dp"/>
+
+                </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/mainColor"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+
+
+
+            </LinearLayout>
+
+
+
+            <!--            하단 바 개수 바꿀 때 weightSum  코드 삭제-->
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/white"
+                android:weightSum="4"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+                <ImageView
+                    android:id="@+id/homeTap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/bottom_hometap" />
+
+                <ImageView
+                    android:id="@+id/tipTap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/bottom_goodtip" />
+
+                <ImageView
+                    android:id="@+id/talkTap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/bottom_talk" />
+
+                <ImageView
+                    android:id="@+id/bookmarkTap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/bottom_bookmark" />
+
+            </LinearLayout>
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

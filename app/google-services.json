@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "8703374794",
+    "project_id": "here-a7e1e",
+    "storage_bucket": "here-a7e1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8703374794:android:0e4e8575b52e491ea20b33",
+        "android_client_info": {
+          "package_name": "com.example.here"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1qlKYCCl6uRoI6ZaasKf61BQZCEqMtdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
